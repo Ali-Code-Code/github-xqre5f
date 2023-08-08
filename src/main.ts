@@ -9,7 +9,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true, // component is self-contained
   // the component's markup
   template: `
-   <button (click)="count = count + 1">Add one</button> {{ count }}
+   <button (click)="count = count + 1">Add one vvvv</button> {{ count }}
   `,
 })
 
