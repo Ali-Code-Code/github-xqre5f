@@ -5,7 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 
 // describe component
 @Component({
-  selector: 'add-one-button', // component name used in markup
+  selector: 'login', // component name used in markup
   standalone: true, // component is self-contained
   // the component's markup
   template: `
@@ -14,8 +14,8 @@ import { bootstrapApplication } from '@angular/platform-browser';
 })
 
 // export component
-export class AddOneButtonComponent {
+export class LoginComponent {
   count = 0;
 }
 
-bootstrapApplication(AddOneButtonComponent);
+bootstrapApplication(LoginComponent);
